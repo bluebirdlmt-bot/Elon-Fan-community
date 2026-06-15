@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SpaceX Fan Community</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+header{
+    background:#000;
+    padding:15px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+}
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:url('https://images.unsplash.com/photo-1516849841032-87cbac4d88f') center/cover;
+}
+.hero h1{
+    font-size:48px;
+}
+.hero p{
+    font-size:20px;
+}
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#e63946;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+.section{
+    padding:50px 20px;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.card{
+    background:#1d1d1d;
+    padding:20px;
+    border-radius:10px;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+}
+.disclaimer{
+    color:#aaa;
+    font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<div class="logo">SpaceX Fan Community</div>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">SpaceX</a></li>
+<li><a href="#">Elon Musk</a></li>
+<li><a href="#">Community</a></li>
+<li><a href="#">Register</a></li>
+<li><a href="#">Sign In</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome to the SpaceX Fan Community</h1>
+<p>Latest news, discussions, and updates about Elon Musk and SpaceX.</p>
+<a href="#" class="btn">Join Community</a>
+</section>
+
+<section class="section">
+<h2>Latest News</h2>
+<div class="cards">
+<div class="card">
+<h3>Starship Updates</h3>
+<p>Follow the latest developments in SpaceX's Starship program.</p>
+</div>
+
+<div class="card">
+<h3>Elon Musk News</h3>
+<p>Recent interviews, announcements, and industry updates.</p>
+</div>
+
+<div class="card">
+<h3>Community Discussions</h3>
+<p>Join conversations with fellow fans around the world.</p>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>Register</h2>
+<form>
+<input type="text" placeholder="Full Name" required><br><br>
+<input type="email" placeholder="Email Address" required><br><br>
+<input type="password" placeholder="Password" required><br><br>
+<button type="submit">Create Account</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 SpaceX Fan Community</p>
+<p class="disclaimer">
+This website is an independent fan community and is not affiliated with, endorsed by, or connected to Elon Musk, SpaceX, Tesla, X, or any related organization.
+</p>
+</footer>
+
+</body>
+</html>
